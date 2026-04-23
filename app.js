@@ -7,7 +7,7 @@ function sumar(a, b) {
 }
 
 app.get('/', (req, res) => {
-  res.send('Hola Arquitectos! Pipeline CI/CD funcionando al 100% 🚀');
+  res.send('Hola Arquitectos! Pipeline CI/CD funcionando al 100%');
 });
 
 app.get('/sumar', (req, res) => {
