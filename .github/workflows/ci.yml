@@ -11,8 +11,6 @@ on:
 jobs:
   testing:
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true   
 
     steps:
       - name: Obtener el código del repositorio
@@ -21,7 +19,7 @@ jobs:
       - name: Instalar Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '24'
+          node-version: '20'
 
       - name: Instalar dependencias
         run: npm install

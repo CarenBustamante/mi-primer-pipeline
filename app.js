@@ -4,7 +4,7 @@ const app = express();
 
 // La función que vamos a testear: suma dos números
 function sumar(a, b) {
-  return a + b;
+  return a * b; // 🐛 Bug intencional: multiplicamos en lugar de sumar
 }
 
 // Ruta principal: devuelve "Hola Mundo"
