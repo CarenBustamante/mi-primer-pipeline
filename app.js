@@ -18,5 +18,9 @@ app.get('/sumar', (req, res) => {
   res.json({ resultado });
 });
 
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Servidor corriendo en puerto ${PORT}`);
+});
 // Exportamos la función para poder testearla
 module.exports = { sumar, app };
