@@ -1,0 +1,26 @@
+{
+  "name": "mi-primer-pipeline",
+  "version": "1.0.0",
+  "description": "Laboratorio CI/CD - Mi primer pipeline",
+  "main": "index.js",
+  "scripts": {
+  "test": "jest",
+  "start": "node app.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarenBustamante/mi-primer-pipeline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/CarenBustamante/mi-primer-pipeline/issues"
+  },
+  "homepage": "https://github.com/CarenBustamante/mi-primer-pipeline#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "jest": "^30.3.0"
+  }
+}
