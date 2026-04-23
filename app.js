@@ -9,7 +9,7 @@ function sumar(a, b) {
 
 // Ruta principal: devuelve "Hola Mundo"
 app.get('/', (req, res) => {
-  res.send('Hola Mundo desde mi Pipeline!');
+    res.send('Hola Arquitectos! Pipeline CI/CD funcionando al 100%');
 });
 
 // Ruta que suma: /sumar?a=5&b=3
